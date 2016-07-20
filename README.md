@@ -2,7 +2,4 @@
 A personal project to learn AngularJS framework
 
 #Build using
-AngularJs
-Bootstrap 3
-HTML 5 Boilerplate
-
+AngularJS, Bootstrap 3 and HTML5 Boilerplate.
