@@ -1,0 +1,15 @@
+<div class="container well well-lg" ng-repeat="developer in developers_data">
+    <div>
+        <h3 class="text-muted">{{developer.name}}</h3>
+    </div>
+    <hr>
+    <div class="row">
+        <div class="col-xs-6 col-md-2" ng-repeat="social in developer.social_media">
+            <a href="{{social.url}}" target="_blank">
+                <div class="social-container">
+                    <img ng-src="{{social.logo_path}}" class="img-thumbnail img-responsive">
+                </div>
+            </a>
+        </div>
+    </div>
+</div>

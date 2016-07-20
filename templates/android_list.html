@@ -1,0 +1,26 @@
+<div class="container well">
+    <h4> O Android é o sistema mobile mais usado atualmente <time datetime="2016-07-14">(14/07/2016)</time>, criado por Andy Rubin em 
+    <time datetime="2003">2003</time> e mais tarde vendido a Google, se tornou o mais usado por ser versatil, e acessivel a qualquer um, acabou por ser o queridinho das fabricantes pois, ao contrario do IOS e outros sistemas da epoca, o android é open source, e bastando atender as exigencias da Google para poder ter a loja oficial de aplicativos, a fabricante podia fazer qualquer modificação no sistema para rodar em seus dispositivos.
+    </h4>
+</div>
+<div class="container">
+    <!--  Search input -->
+    <div class="form-group has-feedback">
+        <input type="text" ng-model="test" class="form-control" placeholder="Pesquisar uma versão.." />
+        <i class="glyphicon glyphicon-search form-control-feedback"></i>
+    </div>
+    <!--  Versions list -->
+    <div class="row padding-bottom">
+        <div class="col-xs-12 col-md-3" ng-repeat="android in androidVersions | filter : test">
+            <a href="#" class="thumbnail">
+              <div class="thumbnail-container">
+                  <img ng-src="{{android.img_path}}" title="{{android.name}}" 
+                       class="img-thumbnail img-responsive">
+              </div>
+              <div class="caption">
+                  <h3><b>{{android.name[0].toUpperCase()}}</b>{{android.name.substr(1,android.name.length)+' '}}<small>{{android.version}}</small></h3>
+              </div>
+            </a>
+        </div>
+    </div>
+</div>

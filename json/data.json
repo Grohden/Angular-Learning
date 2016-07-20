@@ -1,0 +1,17 @@
+{
+    "developers":[
+        {"name":"Gabriel Rohden","social_media":[
+            {   
+                "name":"Facebook",
+                "logo_path":"img/logo_facebook.png",
+                "url":"http://fb.com/gabrieldeoliveira.rohden"
+            },
+            {   
+                "name":"Github",
+                "logo_path":"img/logo_github.png",
+                "url":"http://github.com/Grohden"
+            }]
+        }
+    ],
+    "site_name": "Android Experiments" 
+}
