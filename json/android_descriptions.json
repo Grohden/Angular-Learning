@@ -1,5 +1,5 @@
 [
-    {"version":"1.0","name":"Alpha","release_date":"01/02/01","description":"BLABLABLALBLABLA","img_path":"img/version_alpha.jpg"},    {"version":"1.0","name":"Beta","release_date":"01/02/01","description":"BLABLABLALBLABLA","img_path":"img/version_beta.png"},
+    {"version":"0.x","name":"Alpha","release_date":"01/02/01","description":"BLABLABLALBLABLA","img_path":"img/version_alpha.jpg"},    {"version":"1.0","name":"Beta","release_date":"01/02/01","description":"BLABLABLALBLABLA","img_path":"img/version_beta.png"},
     {"version":"1.5","name":"Cupcake","release_date":"01/02/01","description":"BLABLABLALBLABLA","img_path":"img/version_cupcake.jpg"},
     {"version":"1.6","name":"Donut","release_date":"01/02/01","description":"BLABLABLALBLABLA","img_path":"img/version_donut.png"},
     {"version":"2.0/2.1","name":"Eclair","release_date":"01/02/01","description":"BLABLABLALBLABLA","img_path":"img/version_eclair.png"},

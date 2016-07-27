@@ -24,4 +24,5 @@ app.config(function($routeProvider) {
         templateUrl : "templates/developer.html",
         controller :"developersController"
     })
+    .otherwise({templateUrl:"404.html"});
 });
