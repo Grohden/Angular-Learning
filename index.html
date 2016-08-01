@@ -24,7 +24,7 @@
         
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
         
-        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+        <script src="app/vendor/modernizr-2.8.3.min.js"></script>
         
     </head>
     <body class="narrow-jumbotron" ng-app="DemoApp">
@@ -34,9 +34,9 @@
         <div id="wrapper">
             <div ng-controller="indexController">
                 <!-- Our Website Content Goes Here -->
-                <div menu></div>
+                <menu-component></menu-component>
                 <div ng-view></div>
-                <div footer></div>
+                <footer-component></footer-component>
             </div>        
         </div>
         
@@ -46,22 +46,28 @@
 
         <!-- Vendor: Angular, followed by our custom Javascripts -->
         <!-- Our Website Javascripts -->
-        <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
-        <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-route.js"></script>
-        <script src="js/main.js"></script>   
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular-route.js"></script> 
         
         <!--Developers component -->
-        <script type="text/javascript" src="js/developers.controller.js"></script>
+        <script type="text/javascript" src="app/developers/developers.module.js"></script>
+        <script type="text/javascript" src="app/developers/developers.controller.js"></script>
         
         <!--AndroidList component -->
-        <script type="text/javascript" src="js/android-list.controller.js"></script>
-        
+        <script type="text/javascript" src="app/androidList/android-list.module.js"></script>
+        <script type="text/javascript" src="app/androidList/android-list.controller.js"></script>        
+
         <!--Menu component -->
-        <script type="text/javascript" src="js/menu.controller.js"></script>
-        <script type="text/javascript" src="js/menu.directive.js"></script>
+        <script type="text/javascript" src="app/menu/menu.module.js"></script>
+        <script type="text/javascript" src="app/menu/menu.component.js"></script>
+        <script type="text/javascript" src="app/menu/menu.controller.js"></script>
         
         <!--Footer component -->
-        <script type="text/javascript" src="js/footer.controller.js"></script>
-        <script type="text/javascript" src="js/footer.directive.js"></script>
+        <script type="text/javascript" src="app/footer/footer.module.js"></script>
+        <script type="text/javascript" src="app/footer/footer.component.js"></script>
+        <script type="text/javascript" src="app/footer/footer.controller.js"></script>        
+
+        <!-- Main App-->
+        <script src="app/app.js"></script>  
     </body>
 </html>
