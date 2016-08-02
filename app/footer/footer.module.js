@@ -1,1 +1,5 @@
-angular.module('footer',[]);
+(function () {
+    'use strict';
+    /*global angular*/
+    angular.module('footer', []);
+}());

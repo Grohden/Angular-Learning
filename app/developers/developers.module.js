@@ -1,1 +1,5 @@
-angular.module("developers",[]);
+(function () {
+    'use strict';
+    /*global angular*/
+    angular.module("developers", []);
+}());

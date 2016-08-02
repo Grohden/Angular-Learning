@@ -1,10 +1,11 @@
-angular.module('androidList').component(
-    'androidList',
-    function() {
-        // Return the directive configuration.
-        return({
+(function () {
+    'use strict';
+    /*global angular*/
+    angular.module('androidList').component(
+        'androidList',
+        {
             templateUrl: 'android-list.template.html',
-            controller: 'androidListController',
-        });
-    }
-);
+            controller: 'androidListController'
+        }
+    );
+}());
